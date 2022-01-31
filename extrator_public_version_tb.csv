@@ -1,0 +1,854 @@
+number_version,commit
+249,Added new Feature so that volumes can be specified in POM
+263,[maven-release-plugin] prepare for next development iteration
+264,Update README.md for issue #171
+265,Merge pull request #172 from mattreyuk/patch-1
+268,Merge pull request #173 from dawidmalina/squash-commands
+270,[maven-release-plugin] prepare for next development iteration
+274,[maven-release-plugin] prepare for next development iteration
+0,Initial public release
+1,Added .travis.yml
+4,Merge pull request #3 from spotify/rculbertson/pom-fields
+14,use testOutputDirectory prop for image_info.json
+27,Merge pull request #10 from spotify/rculbertson/undefined-property-npe
+45,Use param name not user prop name when injecting imageName into session
+53,${gitShortCommitId} should work when specified in pom
+70,Merge pull request #32 from spotify/dxia/automate-sonatype
+82,Merge pull request #39 from spotify/rculbertson/findbugs
+93,[maven-release-plugin] prepare for next development iteration
+99,Merge pull request #43 from evgeny-goldin/extra-tags
+111,Merge pull request #56 from spotify/rculbertson/omit-null-fields
+116,Update release docs
+117,[maven-release-plugin] prepare release v0.2.2
+119,Throw MojoExecutionException instead of NPE
+121,[maven-release-plugin] prepare release v0.2.3
+123,[maven-release-plugin] prepare release v0.2.4
+124,[maven-release-plugin] prepare for next development iteration
+125,#47 - removeImage Mojo added
+126,Merge pull request #62 from krystiannowak/krystiannowak/remove-image
+127,[maven-release-plugin] prepare release v0.2.5
+128,[maven-release-plugin] prepare for next development iteration
+129,Set mtime of copied files to 1
+130,Support auth credentials for private repo push
+131,Merge pull request #60 from spotify/dxia/private-registry-push2
+132,[maven-release-plugin] prepare release v0.2.6
+133,[maven-release-plugin] prepare for next development iteration
+134,Merge pull request #67 from spotify/dxia/mtime-1
+135,Fix NPE for newly initialized git repo
+136,Merge pull request #73 from spotify/dxia/npe-fix
+137,Upgrade docker-client dep from 2.7.6 to 2.7.22
+138,Add junit dep
+139,Merge pull request #80 from spotify/upgrade-docker-client
+140,Merge pull request #81 from spotify/add-junit-dep
+141,Classify docker-client as shaded
+142,Merge pull request #83 from spotify/classify-docker-client
+473,[maven-release-plugin] prepare release v0.3.112
+474,[maven-release-plugin] prepare for next development iteration
+475,[maven-release-plugin] prepare release v0.3.113
+476,[maven-release-plugin] prepare for next development iteration
+477,[maven-release-plugin] prepare release v0.3.114
+478,[maven-release-plugin] prepare for next development iteration
+482,[maven-release-plugin] prepare for next development iteration
+483,[maven-release-plugin] prepare release v0.3.117
+484,[maven-release-plugin] prepare for next development iteration
+485,[maven-release-plugin] prepare release v0.3.118
+489,[maven-release-plugin] prepare release v0.3.120
+491,[maven-release-plugin] prepare release v0.3.121
+492,[maven-release-plugin] prepare for next development iteration
+493,[maven-release-plugin] prepare release v0.3.122
+494,[maven-release-plugin] prepare for next development iteration
+143,Added capability of using force option for tagging
+144,[maven-release-plugin] prepare release v0.2.7
+145,[maven-release-plugin] prepare for next development iteration
+149,Update maven-compiler-plugin and fix indentation
+150,Merge pull request #85 from spotify/update-maven-compiler-version
+151,[maven-release-plugin] prepare release v0.2.8
+153,Added support for encrypted passwords
+154,Extracted AuthConfig building to enable testing
+155,Test authentication using encrypted password
+156,[maven-release-plugin] prepare release v0.2.9
+157,[maven-release-plugin] prepare for next development iteration
+158,Upgrade docker-client dep from 2.7.22 to 2.7.26
+159,Merge pull request #96 from spotify/upgrade-docker-client
+160,Fix nullpointer while reading settings.xml
+162,downgrade assertj for compatibility to java7
+163,[maven-release-plugin] prepare release v0.2.10
+164,[maven-release-plugin] prepare for next development iteration
+165,Fix NPE for email
+166,Merge pull request #99 from spotify/fix-npe
+167,Preserve mtime of copied files
+168,Merge pull request #100 from spotify/preserve-mtime
+169,[maven-release-plugin] prepare release v0.2.11
+170,[maven-release-plugin] prepare for next development iteration
+171,fix NPE if tagInfoFile does not contain parent dir
+185,Merge pull request #120 from spotify/pull-on-build
+257,Changed log level from debug to info to show always why the docker build was skipped
+288,[maven-release-plugin] prepare for next development iteration
+346,[maven-release-plugin] prepare for next development iteration
+315,[maven-release-plugin] prepare release v0.3.33
+322,[maven-release-plugin] prepare for next development iteration
+360,[maven-release-plugin] prepare for next development iteration
+370,[maven-release-plugin] prepare for next development iteration
+371,[maven-release-plugin] prepare release v0.3.61
+373,[maven-release-plugin] prepare release v0.3.62
+374,[maven-release-plugin] prepare for next development iteration
+375,[maven-release-plugin] prepare release v0.3.63
+376,[maven-release-plugin] prepare for next development iteration
+377,[maven-release-plugin] prepare release v0.3.64
+382,[maven-release-plugin] prepare for next development iteration
+383,[maven-release-plugin] prepare release v0.3.67
+384,[maven-release-plugin] prepare for next development iteration
+385,[maven-release-plugin] prepare release v0.3.68
+387,[maven-release-plugin] prepare release v0.3.69
+388,[maven-release-plugin] prepare for next development iteration
+389,[maven-release-plugin] prepare release v0.3.70
+390,[maven-release-plugin] prepare for next development iteration
+391,[maven-release-plugin] prepare release v0.3.71
+392,[maven-release-plugin] prepare for next development iteration
+393,[maven-release-plugin] prepare release v0.3.72
+394,[maven-release-plugin] prepare for next development iteration
+395,[maven-release-plugin] prepare release v0.3.73
+396,[maven-release-plugin] prepare for next development iteration
+397,[maven-release-plugin] prepare release v0.3.74
+398,[maven-release-plugin] prepare for next development iteration
+399,[maven-release-plugin] prepare release v0.3.75
+400,[maven-release-plugin] prepare for next development iteration
+402,[maven-release-plugin] prepare for next development iteration
+495,[maven-release-plugin] prepare release v0.3.123
+497,[maven-release-plugin] prepare release v0.3.124
+498,[maven-release-plugin] prepare for next development iteration
+499,[maven-release-plugin] prepare release v0.3.125
+500,[maven-release-plugin] prepare for next development iteration
+501,[maven-release-plugin] prepare release v0.3.126
+518,[maven-release-plugin] prepare for next development iteration
+532,[maven-release-plugin] prepare for next development iteration
+542,[maven-release-plugin] prepare for next development iteration
+566,[maven-release-plugin] prepare for next development iteration
+575,[maven-release-plugin] prepare release v0.3.163
+592,[maven-release-plugin] prepare for next development iteration
+615,[maven-release-plugin] prepare release v0.3.183
+282,[maven-release-plugin] prepare for next development iteration
+283,[maven-release-plugin] prepare release v0.3.17
+284,[maven-release-plugin] prepare for next development iteration
+636,[maven-release-plugin] prepare for next development iteration
+658,[maven-release-plugin] prepare for next development iteration
+660,[maven-release-plugin] prepare for next development iteration
+668,[maven-release-plugin] prepare for next development iteration
+681,[maven-release-plugin] prepare release v0.3.216
+682,[maven-release-plugin] prepare for next development iteration
+683,[maven-release-plugin] prepare release v0.3.217
+684,[maven-release-plugin] prepare for next development iteration
+685,[maven-release-plugin] prepare release v0.3.218
+686,[maven-release-plugin] prepare for next development iteration
+687,[maven-release-plugin] prepare release v0.3.219
+689,[maven-release-plugin] prepare release v0.3.220
+690,[maven-release-plugin] prepare for next development iteration
+691,[maven-release-plugin] prepare release v0.3.221
+692,[maven-release-plugin] prepare for next development iteration
+693,[maven-release-plugin] prepare release v0.3.222
+694,[maven-release-plugin] prepare for next development iteration
+695,[maven-release-plugin] prepare release v0.3.223
+696,[maven-release-plugin] prepare for next development iteration
+697,[maven-release-plugin] prepare release v0.3.224
+698,[maven-release-plugin] prepare for next development iteration
+699,[maven-release-plugin] prepare release v0.3.225
+700,[maven-release-plugin] prepare for next development iteration
+701,[maven-release-plugin] prepare release v0.3.226
+702,[maven-release-plugin] prepare for next development iteration
+704,[maven-release-plugin] prepare for next development iteration
+705,[maven-release-plugin] prepare release v0.3.228
+706,[maven-release-plugin] prepare for next development iteration
+707,[maven-release-plugin] prepare release v0.3.229
+708,[maven-release-plugin] prepare for next development iteration
+709,[maven-release-plugin] prepare release v0.3.230
+710,[maven-release-plugin] prepare for next development iteration
+711,[maven-release-plugin] prepare release v0.3.231
+403,[maven-release-plugin] prepare release v0.3.77
+405,[maven-release-plugin] prepare release v0.3.78
+406,[maven-release-plugin] prepare for next development iteration
+407,[maven-release-plugin] prepare release v0.3.79
+408,[maven-release-plugin] prepare for next development iteration
+409,[maven-release-plugin] prepare release v0.3.80
+410,[maven-release-plugin] prepare for next development iteration
+411,[maven-release-plugin] prepare release v0.3.81
+412,[maven-release-plugin] prepare for next development iteration
+413,[maven-release-plugin] prepare release v0.3.82
+415,[maven-release-plugin] prepare release v0.3.83
+416,[maven-release-plugin] prepare for next development iteration
+417,[maven-release-plugin] prepare release v0.3.84
+418,[maven-release-plugin] prepare for next development iteration
+419,[maven-release-plugin] prepare release v0.3.85
+378,[maven-release-plugin] prepare for next development iteration
+379,[maven-release-plugin] prepare release v0.3.65
+380,[maven-release-plugin] prepare for next development iteration
+381,[maven-release-plugin] prepare release v0.3.66
+712,[maven-release-plugin] prepare for next development iteration
+713,[maven-release-plugin] prepare release v0.3.232
+714,[maven-release-plugin] prepare for next development iteration
+715,[maven-release-plugin] prepare release v0.3.233
+716,[maven-release-plugin] prepare for next development iteration
+717,[maven-release-plugin] prepare release v0.3.234
+718,[maven-release-plugin] prepare for next development iteration
+719,[maven-release-plugin] prepare release v0.3.235
+720,[maven-release-plugin] prepare for next development iteration
+721,[maven-release-plugin] prepare release v0.3.236
+722,[maven-release-plugin] prepare for next development iteration
+723,[maven-release-plugin] prepare release v0.3.237
+724,[maven-release-plugin] prepare for next development iteration
+725,[maven-release-plugin] prepare release v0.3.238
+726,[maven-release-plugin] prepare for next development iteration
+727,[maven-release-plugin] prepare release v0.3.239
+728,[maven-release-plugin] prepare for next development iteration
+729,[maven-release-plugin] prepare release v0.3.240
+730,[maven-release-plugin] prepare for next development iteration
+731,[maven-release-plugin] prepare release v0.3.241
+732,[maven-release-plugin] prepare for next development iteration
+733,[maven-release-plugin] prepare release v0.3.242
+734,[maven-release-plugin] prepare for next development iteration
+735,[maven-release-plugin] prepare release v0.3.243
+736,[maven-release-plugin] prepare for next development iteration
+737,[maven-release-plugin] prepare release v0.3.244
+738,[maven-release-plugin] prepare for next development iteration
+739,[maven-release-plugin] prepare release v0.3.245
+757,[maven-release-plugin] prepare release v0.3.254
+764,[maven-release-plugin] prepare for next development iteration
+783,Merge pull request #194 from spotify/dxia/issue-template
+804,Merge pull request #213 from spotify/dxia/checkstyle-final-vars
+303,[maven-release-plugin] prepare release v0.3.27
+310,[maven-release-plugin] prepare for next development iteration
+425,[maven-release-plugin] prepare release v0.3.88
+439,[maven-release-plugin] prepare release v0.3.95
+446,[maven-release-plugin] prepare for next development iteration
+479,[maven-release-plugin] prepare release v0.3.115
+480,[maven-release-plugin] prepare for next development iteration
+481,[maven-release-plugin] prepare release v0.3.116
+514,[maven-release-plugin] prepare for next development iteration
+522,[maven-release-plugin] prepare for next development iteration
+523,[maven-release-plugin] prepare release v0.3.137
+524,[maven-release-plugin] prepare for next development iteration
+564,[maven-release-plugin] prepare for next development iteration
+565,[maven-release-plugin] prepare release v0.3.158
+579,[maven-release-plugin] prepare release v0.3.165
+580,[maven-release-plugin] prepare for next development iteration
+612,[maven-release-plugin] prepare for next development iteration
+320,[maven-release-plugin] prepare for next development iteration
+321,[maven-release-plugin] prepare release v0.3.36
+341,[maven-release-plugin] prepare release v0.3.46
+18,use guava 12.0.1
+20,[maven-release-plugin] prepare release v0.0.16
+59,Add getter for BuildMojo.imageName
+60,Merge pull request #28 from spotify/dxia/imageName-getter
+101,[maven-release-plugin] prepare for next development iteration
+102,Readme update for running plugin's help
+146,Add circle-ci build status
+147,Fix javadoc error
+148,Merge pull request #84 from spotify/fix-javadoc-error
+161,Change idents
+190,Support more Dockerfile commands
+191,Added documentation references
+192,Merge pull request #121 from spotify/more-cmds
+233,update following review comments from mattnworb
+234,adding suggested cli example
+275,[maven-release-plugin] prepare release v0.3.13
+318,[maven-release-plugin] prepare for next development iteration
+361,[maven-release-plugin] prepare release v0.3.56
+404,[maven-release-plugin] prepare for next development iteration
+447,[maven-release-plugin] prepare release v0.3.99
+490,[maven-release-plugin] prepare for next development iteration
+533,[maven-release-plugin] prepare release v0.3.142
+576,[maven-release-plugin] prepare for next development iteration
+619,[maven-release-plugin] prepare release v0.3.185
+661,[maven-release-plugin] prepare release v0.3.206
+703,[maven-release-plugin] prepare release v0.3.227
+746,[maven-release-plugin] prepare for next development iteration
+790,Upgrade docker-client from 3.5.9 to 3.6.1
+816,using boolean as parameter
+3,Added pom fields required by central repo
+195,[maven-release-plugin] prepare for next development iteration
+212,Include image name (without tag) in the digest field in the tag info file
+800,Merge pull request #210 from jmkgreen/patch-1
+810,Merge pull request #223 from spotify/dxia/upgrade-docker-client
+229,Merge pull request #149 from spotify/empty-cmd
+230,Skip docker build if project packaging is set to POM or a dockerDirectory is specified but no Dockerfile contained
+5,Merge pull request #2 from spotify/rculbertson/release-plugin
+6,[maven-release-plugin] prepare release v0.0.14
+8,Add plugins for javadoc and sources
+9,Add sonatype parent element to pom
+10,Merge pull request #4 from spotify/rculbertson/sonatype
+11,Merge pull request #5 from spotify/rculbertson/javadoc-sources
+12,[maven-release-plugin] prepare release v0.0.15
+15,image info: create parent dir
+21,[maven-release-plugin] prepare for next development iteration
+22,disable read timeouts
+23,Merge pull request #9 from spotify/dano/disable-read-timeouts
+24,[maven-release-plugin] prepare release v0.0.17
+25,[maven-release-plugin] prepare for next development iteration
+26,No longer throw NPE when profile property is undefined
+28,Plugin now retains directory structure of resources
+30,Ensure ADD statements always have same order in generaated Dockerfile
+31,Merge pull request #14 from spotify/rculbertson/sorted-resources
+32,[maven-release-plugin] prepare release v0.0.18
+34,Remove pom snippet version number from README.md
+35,Merge pull request #16 from spotify/dxia/remove-readme-pom-version
+36,Do not throw exception if not in git repo
+37,Merge pull request #17 from spotify/rculbertson/not-git-repo
+38,Added support for Dockerfile's EXPOSE command
+39,Merge pull request #18 from spotify/rculbertson/expose
+40,[maven-release-plugin] prepare release v0.0.19
+42,close docker client after execution
+43,Expose image name generated by BuildMojo as a property
+44,Merge pull request #20 from dflemstr/export-image-name
+47,[maven-release-plugin] prepare release v0.0.20
+48,[maven-release-plugin] prepare for next development iteration
+49,Updated docs
+50,Readme now includes note about multi-module projects
+51,Merge pull request #22 from spotify/rculbertson/readme-multi-module
+52,Merge pull request #19 from spotify/dano/cleanup
+33,[maven-release-plugin] prepare for next development iteration
+54,Merge pull request #23 from spotify/rculbertson/commit-id
+57,[maven-release-plugin] prepare release v0.0.21
+61,Add getter for BuildMojo.repo
+62,Merge pull request #29 from spotify/dxia/repo-getter
+63,[maven-release-plugin] prepare release v0.0.22
+64,[maven-release-plugin] prepare for next development iteration
+65,Upgrade docker-client dep to 2.6.4
+67,[maven-release-plugin] prepare release v0.0.23
+68,[maven-release-plugin] prepare for next development iteration
+69,Automate sonatype releases
+71,Refactor build and release process
+73,Archive git commit hash
+76,Merge pull request #31 from spotify/dxia/use-https
+77,Do not skip sonatype remote staging
+78,[maven-release-plugin] prepare release v0.0.29
+79,[maven-release-plugin] prepare for next development iteration
+80,Add getter for BuildMojo.pushImage
+81,Bump version of findbugs to 3.0.0
+83,Add support for <packaging>docker</packaging>
+84,Add integration tests for new behavior & old behavior
+86,Pin specific versions of lifecycle plugin to correspond with Maven 3.1.0 defaults
+87,Add missing comma to deploy lifecycle mapping
+88,Add IT for multi-module project with docker-image dependencies
+89,Enable ITs by default
+90,"bump versions: jdk, guava, docker-client"
+91,Merge pull request #41 from dflemstr/packaging-docker
+92,[maven-release-plugin] prepare release v0.1.0
+94,BuildMojo - imageTags parameter added to tag an image with additional tags after it's built
+95,Final variables in BuildMojo.tagImage()
+96,BuildMojo throws an error if gitCommitId is used but no git repo is available
+97,Merge pull request #44 from evgeny-goldin/git-commit-id
+104,Set mtime of copied files to 0 to enable Docker cache
+106,[maven-release-plugin] prepare release v0.1.2
+107,[maven-release-plugin] prepare for next development iteration
+100,[maven-release-plugin] prepare release v0.1.1
+108,DockerBuildInformation - reads Git repo URL and commit
+109,Merge pull request #54 from evgeny-goldin/master
+110,omit null entries from image_info.json
+112,[maven-release-plugin] prepare release v0.2.0
+113,[maven-release-plugin] prepare for next development iteration
+114,[maven-release-plugin] prepare release v0.2.1
+115,[maven-release-plugin] prepare for next development iteration
+173,fix for handling of non-existing image when removing
+174,Merge pull request #108 from krystiannowak/remove-image-error-handling
+175,Fix nullpointer while reading settings.xml
+176,Merge pull request #109 from detached/fixNPEWhileReadingSettings
+177,Add table of contents to README
+178,[maven-release-plugin] prepare release v0.2.12
+179,[maven-release-plugin] prepare for next development iteration
+180,Support multiple image tags for image removal
+181,Merge pull request #113 from spotify/image-removal
+182,Fix code style
+183,Merge pull request #117 from spotify/checkstyle
+184,Add pullOnBuild flag to pull base images on build
+193,Bump minor version
+194,[maven-release-plugin] prepare release v0.3.0
+196,[maven-release-plugin] prepare release v0.3.1
+197,[maven-release-plugin] prepare for next development iteration
+199,Merge pull request #87 from hrmohr/encryptedpassword
+200,Fix tests
+201,[maven-release-plugin] prepare release v0.3.2
+203,Add CONTRIBUTING.md
+204,Add pushImageTag functionality
+205,Upgrade docker-client dep from 3.1.2 to 3.1.4
+206,Update readme - remove now supported RUN info
+207,Merge pull request #133 from spotify/upgrade-docker-client
+208,Merge pull request #134 from ravwojdyla/improve_readme
+209,[maven-release-plugin] prepare release v0.3.3
+210,[maven-release-plugin] prepare for next development iteration
+211,Write digest to image info file on push
+213,Merge pull request #141 from spotify/staffan/digest
+216,update docker-client to 3.1.8
+217,Merge pull request #144 from spotify/docker-client-3.1.8
+248,[maven-release-plugin] prepare for next development iteration
+250,Adding Test POM (Missed in previous commit
+251,update docker client to recent version
+367,[maven-release-plugin] prepare release v0.3.59
+252,Merge pull request #163 from rgaertner/update-docker-client
+253,#68 corrected path handling on windows
+254,Merge remote-tracking branch 'upstream/master'
+255,[maven-release-plugin] prepare release v0.3.8
+256,[maven-release-plugin] prepare for next development iteration
+258,Merge pull request #164 from craykg/master
+259,update maven libraries and remove guava restriction
+260,remove unneeded guava dependencies in test poms
+261,Merge pull request #170 from spotify/resolve-guava-conflict
+262,[maven-release-plugin] prepare release v0.3.9
+266,Merge pull request #161 from officialpatterson/master
+267,Squash all RUN commands into one layer
+189,Ignore javadoc lint warnings on all java versions
+218,[maven-release-plugin] prepare release v0.3.5
+219,[maven-release-plugin] prepare for next development iteration
+220,"add a known issue about properties named ""docker"""
+221,use maven-filtering for resource filtering and copying
+222,correct the base path of files in BuildMojo tests
+223,don't set empty CMD when not configured
+224,readme: add common causes of 500 Internal Server Error
+225,Merge pull request #148 from spotify/known-issues-internal-server-errors
+226,Upgrade docker-client dep from 3.1.8 to 3.2.1
+227,"when ADDing files, write dest as a directory"
+228,Merge pull request #150 from spotify/upgrade-docker-client
+236,ability to pass no-cache flag when building image
+237,Merge pull request #156 from spotify/no-cache
+238,ensure entire directories are copied for ADDs
+240,Merge pull request #158 from lndbrg/olle/add-configurability
+241,use docker-client 3.3.1
+242,Merge pull request #159 from spotify/docker-client-3.3.1
+247,[maven-release-plugin] prepare release v0.3.7
+271,[maven-release-plugin] prepare release v0.3.11
+231,document how to push images to private registries
+272,[maven-release-plugin] prepare for next development iteration
+232,Merge pull request #154 from spotify/clarify-private-registry
+277,[maven-release-plugin] prepare release v0.3.14
+269,[maven-release-plugin] prepare release v0.3.10
+278,[maven-release-plugin] prepare for next development iteration
+279,[maven-release-plugin] prepare release v0.3.15
+281,[maven-release-plugin] prepare release v0.3.16
+285,[maven-release-plugin] prepare release v0.3.18
+287,[maven-release-plugin] prepare release v0.3.19
+289,[maven-release-plugin] prepare release v0.3.20
+290,[maven-release-plugin] prepare for next development iteration
+291,[maven-release-plugin] prepare release v0.3.21
+292,[maven-release-plugin] prepare for next development iteration
+295,[maven-release-plugin] prepare release v0.3.23
+296,[maven-release-plugin] prepare for next development iteration
+297,[maven-release-plugin] prepare release v0.3.24
+299,[maven-release-plugin] prepare release v0.3.25
+300,[maven-release-plugin] prepare for next development iteration
+301,[maven-release-plugin] prepare release v0.3.26
+302,[maven-release-plugin] prepare for next development iteration
+304,[maven-release-plugin] prepare for next development iteration
+305,[maven-release-plugin] prepare release v0.3.28
+306,[maven-release-plugin] prepare for next development iteration
+307,[maven-release-plugin] prepare release v0.3.29
+308,[maven-release-plugin] prepare for next development iteration
+309,[maven-release-plugin] prepare release v0.3.30
+311,[maven-release-plugin] prepare release v0.3.31
+312,[maven-release-plugin] prepare for next development iteration
+313,[maven-release-plugin] prepare release v0.3.32
+276,[maven-release-plugin] prepare for next development iteration
+343,[maven-release-plugin] prepare release v0.3.47
+345,[maven-release-plugin] prepare release v0.3.48
+347,[maven-release-plugin] prepare release v0.3.49
+348,[maven-release-plugin] prepare for next development iteration
+349,[maven-release-plugin] prepare release v0.3.50
+350,[maven-release-plugin] prepare for next development iteration
+319,[maven-release-plugin] prepare release v0.3.35
+323,[maven-release-plugin] prepare release v0.3.37
+325,[maven-release-plugin] prepare release v0.3.38
+326,[maven-release-plugin] prepare for next development iteration
+327,[maven-release-plugin] prepare release v0.3.39
+329,[maven-release-plugin] prepare release v0.3.40
+330,[maven-release-plugin] prepare for next development iteration
+331,[maven-release-plugin] prepare release v0.3.41
+332,[maven-release-plugin] prepare for next development iteration
+333,[maven-release-plugin] prepare release v0.3.42
+334,[maven-release-plugin] prepare for next development iteration
+335,[maven-release-plugin] prepare release v0.3.43
+336,[maven-release-plugin] prepare for next development iteration
+337,[maven-release-plugin] prepare release v0.3.44
+338,[maven-release-plugin] prepare for next development iteration
+339,[maven-release-plugin] prepare release v0.3.45
+342,[maven-release-plugin] prepare for next development iteration
+351,[maven-release-plugin] prepare release v0.3.51
+352,[maven-release-plugin] prepare for next development iteration
+353,[maven-release-plugin] prepare release v0.3.52
+354,[maven-release-plugin] prepare for next development iteration
+355,[maven-release-plugin] prepare release v0.3.53
+357,[maven-release-plugin] prepare release v0.3.54
+362,[maven-release-plugin] prepare for next development iteration
+363,[maven-release-plugin] prepare release v0.3.57
+364,[maven-release-plugin] prepare for next development iteration
+365,[maven-release-plugin] prepare release v0.3.58
+317,[maven-release-plugin] prepare release v0.3.34
+368,[maven-release-plugin] prepare for next development iteration
+369,[maven-release-plugin] prepare release v0.3.60
+421,[maven-release-plugin] prepare release v0.3.86
+422,[maven-release-plugin] prepare for next development iteration
+423,[maven-release-plugin] prepare release v0.3.87
+424,[maven-release-plugin] prepare for next development iteration
+427,[maven-release-plugin] prepare release v0.3.89
+428,[maven-release-plugin] prepare for next development iteration
+429,[maven-release-plugin] prepare release v0.3.90
+431,[maven-release-plugin] prepare release v0.3.91
+432,[maven-release-plugin] prepare for next development iteration
+433,[maven-release-plugin] prepare release v0.3.92
+434,[maven-release-plugin] prepare for next development iteration
+435,[maven-release-plugin] prepare release v0.3.93
+436,[maven-release-plugin] prepare for next development iteration
+437,[maven-release-plugin] prepare release v0.3.94
+438,[maven-release-plugin] prepare for next development iteration
+440,[maven-release-plugin] prepare for next development iteration
+441,[maven-release-plugin] prepare release v0.3.96
+443,[maven-release-plugin] prepare release v0.3.97
+448,[maven-release-plugin] prepare for next development iteration
+449,[maven-release-plugin] prepare release v0.3.100
+450,[maven-release-plugin] prepare for next development iteration
+451,[maven-release-plugin] prepare release v0.3.101
+453,[maven-release-plugin] prepare release v0.3.102
+454,[maven-release-plugin] prepare for next development iteration
+455,[maven-release-plugin] prepare release v0.3.103
+456,[maven-release-plugin] prepare for next development iteration
+457,[maven-release-plugin] prepare release v0.3.104
+459,[maven-release-plugin] prepare release v0.3.105
+460,[maven-release-plugin] prepare for next development iteration
+461,[maven-release-plugin] prepare release v0.3.106
+462,[maven-release-plugin] prepare for next development iteration
+463,[maven-release-plugin] prepare release v0.3.107
+464,[maven-release-plugin] prepare for next development iteration
+420,[maven-release-plugin] prepare for next development iteration
+503,[maven-release-plugin] prepare release v0.3.127
+504,[maven-release-plugin] prepare for next development iteration
+505,[maven-release-plugin] prepare release v0.3.128
+506,[maven-release-plugin] prepare for next development iteration
+507,[maven-release-plugin] prepare release v0.3.129
+508,[maven-release-plugin] prepare for next development iteration
+509,[maven-release-plugin] prepare release v0.3.130
+465,[maven-release-plugin] prepare release v0.3.108
+466,[maven-release-plugin] prepare for next development iteration
+467,[maven-release-plugin] prepare release v0.3.109
+468,[maven-release-plugin] prepare for next development iteration
+469,[maven-release-plugin] prepare release v0.3.110
+471,[maven-release-plugin] prepare release v0.3.111
+502,[maven-release-plugin] prepare for next development iteration
+510,[maven-release-plugin] prepare for next development iteration
+511,[maven-release-plugin] prepare release v0.3.131
+513,[maven-release-plugin] prepare release v0.3.132
+515,[maven-release-plugin] prepare release v0.3.133
+517,[maven-release-plugin] prepare release v0.3.134
+519,[maven-release-plugin] prepare release v0.3.135
+520,[maven-release-plugin] prepare for next development iteration
+521,[maven-release-plugin] prepare release v0.3.136
+525,[maven-release-plugin] prepare release v0.3.138
+526,[maven-release-plugin] prepare for next development iteration
+527,[maven-release-plugin] prepare release v0.3.139
+529,[maven-release-plugin] prepare release v0.3.140
+534,[maven-release-plugin] prepare for next development iteration
+535,[maven-release-plugin] prepare release v0.3.143
+536,[maven-release-plugin] prepare for next development iteration
+537,[maven-release-plugin] prepare release v0.3.144
+539,[maven-release-plugin] prepare release v0.3.145
+540,[maven-release-plugin] prepare for next development iteration
+541,[maven-release-plugin] prepare release v0.3.146
+543,[maven-release-plugin] prepare release v0.3.147
+545,[maven-release-plugin] prepare release v0.3.148
+546,[maven-release-plugin] prepare for next development iteration
+547,[maven-release-plugin] prepare release v0.3.149
+548,[maven-release-plugin] prepare for next development iteration
+549,[maven-release-plugin] prepare release v0.3.150
+550,[maven-release-plugin] prepare for next development iteration
+551,[maven-release-plugin] prepare release v0.3.151
+552,[maven-release-plugin] prepare for next development iteration
+553,[maven-release-plugin] prepare release v0.3.152
+554,[maven-release-plugin] prepare for next development iteration
+555,[maven-release-plugin] prepare release v0.3.153
+557,[maven-release-plugin] prepare release v0.3.154
+559,[maven-release-plugin] prepare release v0.3.155
+560,[maven-release-plugin] prepare for next development iteration
+561,[maven-release-plugin] prepare release v0.3.156
+562,[maven-release-plugin] prepare for next development iteration
+567,[maven-release-plugin] prepare release v0.3.159
+568,[maven-release-plugin] prepare for next development iteration
+569,[maven-release-plugin] prepare release v0.3.160
+570,[maven-release-plugin] prepare for next development iteration
+571,[maven-release-plugin] prepare release v0.3.161
+577,[maven-release-plugin] prepare release v0.3.164
+578,[maven-release-plugin] prepare for next development iteration
+581,[maven-release-plugin] prepare release v0.3.166
+583,[maven-release-plugin] prepare release v0.3.167
+584,[maven-release-plugin] prepare for next development iteration
+585,[maven-release-plugin] prepare release v0.3.168
+587,[maven-release-plugin] prepare release v0.3.169
+588,[maven-release-plugin] prepare for next development iteration
+589,[maven-release-plugin] prepare release v0.3.170
+590,[maven-release-plugin] prepare for next development iteration
+591,[maven-release-plugin] prepare release v0.3.171
+593,[maven-release-plugin] prepare release v0.3.172
+594,[maven-release-plugin] prepare for next development iteration
+595,[maven-release-plugin] prepare release v0.3.173
+596,[maven-release-plugin] prepare for next development iteration
+597,[maven-release-plugin] prepare release v0.3.174
+599,[maven-release-plugin] prepare release v0.3.175
+600,[maven-release-plugin] prepare for next development iteration
+601,[maven-release-plugin] prepare release v0.3.176
+603,[maven-release-plugin] prepare release v0.3.177
+604,[maven-release-plugin] prepare for next development iteration
+605,[maven-release-plugin] prepare release v0.3.178
+606,[maven-release-plugin] prepare for next development iteration
+607,[maven-release-plugin] prepare release v0.3.179
+608,[maven-release-plugin] prepare for next development iteration
+609,[maven-release-plugin] prepare release v0.3.180
+610,[maven-release-plugin] prepare for next development iteration
+563,[maven-release-plugin] prepare release v0.3.157
+613,[maven-release-plugin] prepare release v0.3.182
+618,[maven-release-plugin] prepare for next development iteration
+620,[maven-release-plugin] prepare for next development iteration
+621,[maven-release-plugin] prepare release v0.3.186
+622,[maven-release-plugin] prepare for next development iteration
+623,[maven-release-plugin] prepare release v0.3.187
+624,[maven-release-plugin] prepare for next development iteration
+625,[maven-release-plugin] prepare release v0.3.188
+626,[maven-release-plugin] prepare for next development iteration
+627,[maven-release-plugin] prepare release v0.3.189
+629,[maven-release-plugin] prepare release v0.3.190
+630,[maven-release-plugin] prepare for next development iteration
+631,[maven-release-plugin] prepare release v0.3.191
+632,[maven-release-plugin] prepare for next development iteration
+633,[maven-release-plugin] prepare release v0.3.192
+634,[maven-release-plugin] prepare for next development iteration
+635,[maven-release-plugin] prepare release v0.3.193
+637,[maven-release-plugin] prepare release v0.3.194
+638,[maven-release-plugin] prepare for next development iteration
+639,[maven-release-plugin] prepare release v0.3.195
+641,[maven-release-plugin] prepare release v0.3.196
+643,[maven-release-plugin] prepare release v0.3.197
+644,[maven-release-plugin] prepare for next development iteration
+645,[maven-release-plugin] prepare release v0.3.198
+646,[maven-release-plugin] prepare for next development iteration
+647,[maven-release-plugin] prepare release v0.3.199
+648,[maven-release-plugin] prepare for next development iteration
+649,[maven-release-plugin] prepare release v0.3.200
+650,[maven-release-plugin] prepare for next development iteration
+651,[maven-release-plugin] prepare release v0.3.201
+652,[maven-release-plugin] prepare for next development iteration
+653,[maven-release-plugin] prepare release v0.3.202
+654,[maven-release-plugin] prepare for next development iteration
+655,[maven-release-plugin] prepare release v0.3.203
+611,[maven-release-plugin] prepare release v0.3.181
+663,[maven-release-plugin] prepare release v0.3.207
+664,[maven-release-plugin] prepare for next development iteration
+665,[maven-release-plugin] prepare release v0.3.208
+667,[maven-release-plugin] prepare release v0.3.209
+669,[maven-release-plugin] prepare release v0.3.210
+670,[maven-release-plugin] prepare for next development iteration
+671,[maven-release-plugin] prepare release v0.3.211
+672,[maven-release-plugin] prepare for next development iteration
+673,[maven-release-plugin] prepare release v0.3.212
+674,[maven-release-plugin] prepare for next development iteration
+675,[maven-release-plugin] prepare release v0.3.213
+677,[maven-release-plugin] prepare release v0.3.214
+678,[maven-release-plugin] prepare for next development iteration
+679,[maven-release-plugin] prepare release v0.3.215
+680,[maven-release-plugin] prepare for next development iteration
+740,[maven-release-plugin] prepare for next development iteration
+741,[maven-release-plugin] prepare release v0.3.246
+742,[maven-release-plugin] prepare for next development iteration
+743,[maven-release-plugin] prepare release v0.3.247
+744,[maven-release-plugin] prepare for next development iteration
+747,[maven-release-plugin] prepare release v0.3.249
+748,[maven-release-plugin] prepare for next development iteration
+749,[maven-release-plugin] prepare release v0.3.250
+751,[maven-release-plugin] prepare release v0.3.251
+752,[maven-release-plugin] prepare for next development iteration
+753,[maven-release-plugin] prepare release v0.3.252
+754,[maven-release-plugin] prepare for next development iteration
+755,[maven-release-plugin] prepare release v0.3.253
+756,[maven-release-plugin] prepare for next development iteration
+758,[maven-release-plugin] prepare for next development iteration
+759,[maven-release-plugin] prepare release v0.3.255
+760,[maven-release-plugin] prepare for next development iteration
+761,[maven-release-plugin] prepare release v0.3.256
+763,[maven-release-plugin] prepare release v0.3.257
+765,[maven-release-plugin] prepare release v0.3.258
+766,[maven-release-plugin] prepare for next development iteration
+767,[maven-release-plugin] prepare release v0.3.259
+768,[maven-release-plugin] prepare for next development iteration
+769,Upgrade docker-client dep from 3.3.4 to 3.5.9
+770,Bump minor version from 0.3 to 0.4
+772,Merge pull request #127 from HotelsDotCom/master
+773,[maven-release-plugin] prepare release v0.4.0
+774,[maven-release-plugin] prepare for next development iteration
+775,Add support for LABEL's in Dockerfile
+776,Merge pull request #189 from spotify/rohan/labels
+777,[maven-release-plugin] prepare release v0.4.1
+778,[maven-release-plugin] prepare for next development iteration
+779,Added badge for plugin version
+780,Merge pull request #190 from velo/patch-1
+782,Add issue template to help users specify more info
+784,Support for docker command line option --build-arg
+785,Declare Json Object Mapper as static variable
+786,Remove useless Dockerfile in build-arg test
+787,Merge pull request #198 from lrolaz/add-buildargs
+791,Merge pull request #199 from spotify/dxia/upgrade-docker-client
+792,[maven-release-plugin] prepare release v0.4.3
+793,[maven-release-plugin] prepare for next development iteration
+794,[maven-release-plugin] prepare release v0.4.4
+795,[maven-release-plugin] prepare for next development iteration
+796,"Document how to bind Docker build, tag & push to Maven phases"
+797,Merge pull request #204 from cthiebault/patch-1
+798,Merge pull request #191 from kyleprager/forceTags-updated-readme
+799,Move DOCKER_HOST info under Setup
+801,checkstyle: Ensure local variables are final
+802,"Fix checkstyle errors, mostly final vars"
+803,Do not checkstyle for auto-generated HelpMojo
+805,[maven-release-plugin] prepare release v0.4.5
+806,[maven-release-plugin] prepare for next development iteration
+807,Add dockerCertPath option to allow SSL connection to dockerHost
+808,Merge pull request #216 from lrolaz/docker-cert-path
+809,Upgrade docker-client dep from 3.6.1 to 4.0.2
+2,Added release plugin to pom
+13,[maven-release-plugin] prepare for next development iteration
+16,Merge pull request #7 from spotify/dano/image-info-create-directory
+17,Merge pull request #6 from spotify/dano/image-info-prop
+55,[maven-release-plugin] prepare release v0.0.21
+66,Merge pull request #30 from spotify/dxia/upgrade-docker-client
+98,Merge pull request #42 from kvfedorov/master
+103,Merge pull request #46 from evgeny-goldin/master
+118,[maven-release-plugin] prepare for next development iteration
+811,[maven-release-plugin] prepare release v0.4.6
+812,[maven-release-plugin] prepare for next development iteration
+813,[maven-release-plugin] prepare release v0.4.7
+814,[maven-release-plugin] prepare for next development iteration
+815,using docker config file for authentication
+817,Merge pull request #224 from rbedemann/master
+818,[maven-release-plugin] prepare release v0.4.8
+819,[maven-release-plugin] prepare for next development iteration
+821,[maven-release-plugin] prepare for next development iteration
+822,update to docker-client:4.0.8
+823,fix compilation error from docker-client 4.0.8
+824,Merge pull request #230 from spotify/docker-client-4.0.8
+825,[maven-release-plugin] prepare release v0.4.10
+826,[maven-release-plugin] prepare for next development iteration
+827,Upgrade docker-client dep from 4.0.8 to 5.0.1
+828,Merge pull request #232 from spotify/dxia/upgrade-docker-client
+829,deploy snapshots to maven central from travis
+831,update badges in README to use travis
+832,travis config needs to have docker enabled
+833,Merge pull request #235 from spotify/deploy-snapshots-from-travis
+834,Special characters in filenames are not escaped  (#248)
+835,Make sure that you can apply multiple tags even if the imageName contains a tag (#249)
+836,[maven-release-plugin] prepare release v0.4.11
+41,[maven-release-plugin] prepare for next development iteration
+445,[maven-release-plugin] prepare release v0.3.98
+452,[maven-release-plugin] prepare for next development iteration
+470,[maven-release-plugin] prepare for next development iteration
+486,[maven-release-plugin] prepare for next development iteration
+358,[maven-release-plugin] prepare for next development iteration
+273,[maven-release-plugin] prepare release v0.3.12
+298,[maven-release-plugin] prepare for next development iteration
+324,[maven-release-plugin] prepare for next development iteration
+340,[maven-release-plugin] prepare for next development iteration
+359,[maven-release-plugin] prepare release v0.3.55
+488,[maven-release-plugin] prepare for next development iteration
+366,[maven-release-plugin] prepare for next development iteration
+837,[maven-release-plugin] prepare for next development iteration
+838,Add skipDockerPush and skipDocker properties (#205)
+280,[maven-release-plugin] prepare for next development iteration
+316,[maven-release-plugin] prepare for next development iteration
+496,[maven-release-plugin] prepare for next development iteration
+839,[maven-release-plugin] prepare release v0.4.12
+840,[maven-release-plugin] prepare for next development iteration
+841,Add ability to send --rm param on build (seems needed for CircleCI)
+842,Merge pull request #272 from johnWorrell/allow_no_rm_of_intermediate_images_for_circleci
+843,[maven-release-plugin] prepare release v0.4.13
+844,[maven-release-plugin] prepare for next development iteration
+845,Fixed wrong mvn commandline example
+846,Merge pull request #287 from ChristianHersevoort/patch-1
+847,Added Docker 1.12 optional 'healthcheck' element.
+848,README: Correct tags-to-be-pushed CLI parameters
+849,README: dockerImageTags should be comma-delimited
+850,Add support for image names with private registry and port (port in registry part must not be taken as tag)
+851,Add option to save the built image to a tar archive.
+852,Remove unnecessary imports.
+444,[maven-release-plugin] prepare for next development iteration
+344,[maven-release-plugin] prepare for next development iteration
+356,[maven-release-plugin] prepare for next development iteration
+530,[maven-release-plugin] prepare for next development iteration
+531,[maven-release-plugin] prepare release v0.3.141
+556,[maven-release-plugin] prepare for next development iteration
+572,[maven-release-plugin] prepare for next development iteration
+7,[maven-release-plugin] prepare for next development iteration
+19,Merge pull request #8 from spotify/dano/guava12
+29,Merge pull request #13 from spotify/rculbertson/retain-directory-structure
+46,Merge pull request #21 from spotify/rculbertson/imageName-in-session
+56,[maven-release-plugin] prepare for next development iteration
+72,Merge pull request #33 from spotify/dxia/cd-pipe
+105,Merge pull request #49 from dflemstr/reset-resource-timestamps
+122,[maven-release-plugin] prepare for next development iteration
+186,Remove duplicate junit dep
+294,[maven-release-plugin] prepare for next development iteration
+314,[maven-release-plugin] prepare for next development iteration
+328,[maven-release-plugin] prepare for next development iteration
+574,[maven-release-plugin] prepare for next development iteration
+582,[maven-release-plugin] prepare for next development iteration
+598,[maven-release-plugin] prepare for next development iteration
+616,[maven-release-plugin] prepare for next development iteration
+401,[maven-release-plugin] prepare release v0.3.76
+512,[maven-release-plugin] prepare for next development iteration
+286,[maven-release-plugin] prepare for next development iteration
+293,[maven-release-plugin] prepare release v0.3.22
+372,[maven-release-plugin] prepare for next development iteration
+640,[maven-release-plugin] prepare for next development iteration
+656,[maven-release-plugin] prepare for next development iteration
+659,[maven-release-plugin] prepare release v0.3.205
+666,[maven-release-plugin] prepare for next development iteration
+386,[maven-release-plugin] prepare for next development iteration
+442,[maven-release-plugin] prepare for next development iteration
+458,[maven-release-plugin] prepare for next development iteration
+172,Merge pull request #103 from spotify/fix-NPE-tagInfoFile
+188,[maven-release-plugin] prepare for next development iteration
+202,[maven-release-plugin] prepare for next development iteration
+215,[maven-release-plugin] prepare for next development iteration
+235,Merge branch 'master' of https://github.com/spotify/docker-maven-plugin
+472,[maven-release-plugin] prepare for next development iteration
+487,[maven-release-plugin] prepare release v0.3.119
+516,[maven-release-plugin] prepare for next development iteration
+528,[maven-release-plugin] prepare for next development iteration
+538,[maven-release-plugin] prepare for next development iteration
+544,[maven-release-plugin] prepare for next development iteration
+558,[maven-release-plugin] prepare for next development iteration
+573,[maven-release-plugin] prepare release v0.3.162
+586,[maven-release-plugin] prepare for next development iteration
+602,[maven-release-plugin] prepare for next development iteration
+614,[maven-release-plugin] prepare for next development iteration
+617,[maven-release-plugin] prepare release v0.3.184
+628,[maven-release-plugin] prepare for next development iteration
+642,[maven-release-plugin] prepare for next development iteration
+657,[maven-release-plugin] prepare release v0.3.204
+662,[maven-release-plugin] prepare for next development iteration
+676,[maven-release-plugin] prepare for next development iteration
+688,[maven-release-plugin] prepare for next development iteration
+745,[maven-release-plugin] prepare release v0.3.248
+414,[maven-release-plugin] prepare for next development iteration
+426,[maven-release-plugin] prepare for next development iteration
+430,[maven-release-plugin] prepare for next development iteration
+750,[maven-release-plugin] prepare for next development iteration
+762,[maven-release-plugin] prepare for next development iteration
+771,Merge pull request #178 from spotify/dxia/upgrade-docker-client
+781,"added documentation to README.md for ""forceTags"" option.  Related to issue #188 -- HTTP 409 error when using imageTag"
+788,[maven-release-plugin] prepare release v0.4.2
+789,[maven-release-plugin] prepare for next development iteration
+820,[maven-release-plugin] prepare release v0.4.9
+830,travis: output info about docker environment before run
+58,[maven-release-plugin] prepare for next development iteration
+74,Refactor build and release process
+75,Add support for HTTPS & Unix sockets
+85,Re-add deploy:deploy goal to lifecycle to publish Docker image JAR
+120,Merge pull request #59 from spotify/dxia/better-err-msg
+152,[maven-release-plugin] prepare for next development iteration
+187,[maven-release-plugin] prepare release v0.2.13
+198,Build fails for long lines
+214,[maven-release-plugin] prepare release v0.3.4
+239,Add configurable timeout and retry count for docker pushes.
+243,[maven-release-plugin] prepare release v0.3.6
+244,[maven-release-plugin] prepare for next development iteration
+245,Merge pull request #151 from spotify/add-dest-path
+246,Merge pull request #157 from spotify/fix-copy-dir
