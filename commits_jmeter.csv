@@ -1,0 +1,50 @@
+313,"When adding a test component, it will become selected."
+318,updates to mailer visualizer (Wolfram Rittmeyer)
+314,Objects that act like Config objects have to extend ConfigTestElement
+319,Fixing TableDataModel (Wolfram Rittmeyer)
+315,"Fixing HTTPSampler's dealing with error responses from the server, such as 404, and 500 errors."
+321,Replaced log4j with Avalon LogKit created some simple logging categories in jmeter.properties
+322,"Removing calls to system.out, system.err, and printStackTrace()"
+323,Improvement to AssertionVisualizer (Jochen Stiepel)
+324,Fixing recording and replay of multipart requests where the user chose no file.
+326,Fixing Aggregate listener (bug #12001)
+327,"Making SampleListener notification into single threaded model, so no need to synchronize in visualizer methods."
+328,Improving thread synchronizations Improving performace for file dialog
+329,Can select language from menu HTTPSampler calls urlconn.disconnect on all connections
+330,Can stop test quickly despite ramp-up delay or long timers
+331,ChangeLanguage action compatible with older JDK's Fixing HTTP arguments decoding/encoding unexpectedly
+332,turning off keep-alive dynamically when run out of connections
+333,turning off keep-alive dynamically when run out of connections
+334,exclude MailerModel if mail api not available
+335,Improving reliability of running and stopping threads
+316,Fixing the behavior of the interleave controller.
+320,Fixing logging during unit tests Fixing mail jar availability issue
+325,HTTP Defaults - removed unneeded values Fixed ALL feature of regexFunction Fixed function replacement in config elements
+302,fixing display of encoded parameters in HTTP Request GUI
+303,New error messages in MailerVisualizer and DurationAssertion
+304,Fixing ability to delete arguments
+305,no message
+306,no message
+307,no message
+308,This commit was manufactured by cvs2svn to create tag 'v1_7_3'.
+309,New ability to store and retrieve values from functions and other test elements.
+310,New User Parameter Config Element (replacement and enhancement to the current HTTP User Parameter Modifier)
+317,"Fixed problem with the ""-l"" option in running JMeter in non-gui mode."
+292,Fixing generation of api-docs using Ant build file. Upgrading to Ant 1.5
+291,Fixing bug 11639 (saving follow redirects attribute)
+294,No more encoding proxy argument values until forced to.
+295,Fixing problem with interaction of HTTPArgument and functions
+296,"More inclusive in search of headers for ""Content-Type"""
+312,Added ability to disable/enable test components.
+286,"New src directory organization, committing all files"
+287,New build process to deal with separate source code sections.
+288,"Changed build directory, so updated ClassFinder unit test fixed version token in JMeterUtils"
+289,Assertion visualizer shows sampler data Preventing samplers from interfering with one another in tests
+290,Doc note about problems with JDK1.4.1-beta
+293,No more encoding proxy argument values until forced to.
+299,Updating Aggregate report's throughput calculation updating documentation
+300,Headers now read and compared correctly as case-insensitive generically in proxy proxy records correctly in presence of HTTP Defaults (fixes bug #11397)
+301,build file fix
+297,Adding option to control URL Encoding of HTTP Request parameters
+298,Fixing need to hit 'enter' after entering value in table
+311,Fixing reload problem with UserParameters
