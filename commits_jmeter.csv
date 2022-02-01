@@ -1,3 +1,4 @@
+number_version,commit
 313,"When adding a test component, it will become selected."
 318,updates to mailer visualizer (Wolfram Rittmeyer)
 314,Objects that act like Config objects have to extend ConfigTestElement
